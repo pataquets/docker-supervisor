@@ -16,8 +16,4 @@ RUN \
 	mkdir -vp /var/log/supervisor ; \
 	mkdir -vp /var/run/supervisor
 
-VOLUME /etc/supervisor/conf.d
-VOLUME /var/run/supervisor/
-VOLUME /var/log/supervisor/
-
 EXPOSE 9001
